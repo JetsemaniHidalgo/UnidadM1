@@ -1,5 +1,5 @@
 Proyecto de la unidad M1 del curso de Python
 
 ¡Hola! 
-Este proyecto de la Calculadora de IMC, fue novedoso para mi, ya que es la primera vez que manejo Python, siendo un reto algo nuevo y complejo, mas no imposible, esto se debe a que la rubrica tenia puntos especificos que el programa debia cumplir de los cueles la parte mas compleja 
-,
+Este proyecto de la Calculadora de IMC, fue novedoso para mi, ya que es la primera vez que manejo Python, siendo un reto algo nuevo y complejo, mas no imposible, esto se debe a que la rubrica tenia puntos especificos que el programa debia cumplir, de las cuales la adquisión y validación de datos fue la parte que se me hizo dificil; La razon por la cual se me complico fue que al solicitar los datos al usuario  tenian estos que ser del mismo tipo que solitiva y en caso de que se dejara en blanco, de lo contrario al usuario se le daria un mensaje de error para notificar que los datos no eran los adecuados, al principio los caracter str no fue complicado ya que yo estaba igualando la variable =="", esto permitia si daba un enter indicar error, pero cuando quise los datos de int y float, fue cuando no logre validar correctamente, cual fue mi problema central, fue que cuando marcaba el error no regresaba a prengutar de nuevo para darle la oportunidad del usuario de volver ingresar los datos, por lo que el programa seguía avanzando aun cuando los datos no fueron ingresados.
+
