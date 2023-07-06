@@ -77,4 +77,3 @@ elif IMC >= 35.00 and IMC <= 39.00:
         print ("Usted presenta: obesidad media")
 elif IMC >= 40.00:
         print ("Usted presenta: Obesidad morbida")
-#Resultados
