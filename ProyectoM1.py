@@ -60,7 +60,7 @@ Peso = inputPeso("\nIngrese su peso en kilogramos por favor: ")
 Altura = inputEstatura("\nIngrese su estastura en metros por favor: ")
 IMC = Peso / Altura**2
 print(f"Hola {Nombre} {ApellidoP} {ApellidoM}, tu IMC es de: {IMC:.2f}")
-#Con la sentencia If se compara el valor del IMC para determinar la categoría de peso
+#Con el if se compara el valor del IMC para determinar la categoría de peso
 if IMC >= 0 and IMC <= 15.99 :
         print ("Usted presenta: Delgadez severa")
 elif IMC >= 16.00 and IMC <= 16.99 :
@@ -77,3 +77,4 @@ elif IMC >= 35.00 and IMC <= 39.00:
         print ("Usted presenta: obesidad media")
 elif IMC >= 40.00:
         print ("Usted presenta: Obesidad morbida")
+#Resultados
